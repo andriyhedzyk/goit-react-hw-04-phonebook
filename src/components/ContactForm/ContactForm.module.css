@@ -1,0 +1,27 @@
+.form {
+    background-color: rgb(237, 237, 236);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0.5rem 0.5rem 2rem rgb(232, 231, 231),
+        0.5rem -0.5rem 2rem rgb(145, 211, 250);
+}
+
+label {
+    margin-bottom: 10px;
+    color: rgb(119, 122, 123);
+}
+
+label:last-child {
+    margin-bottom: 0px;
+}
+
+.inputName {
+    margin-left: 28px;
+}
+
+.inputNumber {
+    margin-left: 10px;
+}
